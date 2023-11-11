@@ -1,20 +1,20 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import ItemListContainer from './containers/ItemListContainer';
-import ItemDetailContainer from './containers/ItemDetailContainer';
+import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer';
+import Checkout from './components/Checkout';
 
 function App() {
-  return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={ItemListContainer} />
-        <Route path="/category/:id" component={ItemListContainer} />
-        <Route path="/item/:id" component={ItemDetailContainer} />
-      </Switch>
-    </Router>
-  );
+    return (
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route path="/" exact component={ItemListContainer} />
+                <Route path="/producto/:id" component={ItemDetailContainer} />
+                <Route path="/checkout" component={Checkout} />
+            </Switch>
+        </Router>
+    );
 }
 
 export default App;

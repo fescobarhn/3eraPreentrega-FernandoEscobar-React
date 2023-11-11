@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+AudioShop E-commerce Platform
+Introducción
+AudioShop es una plataforma moderna de e-commerce diseñada para la venta de audífonos inalámbricos. Este proyecto está construido con React y utiliza Context API para manejar el estado global, lo que facilita la gestión del carrito de compras y la interacción del usuario con la aplicación.
+
+Tecnologías Utilizadas
+React: Biblioteca de JavaScript para construir interfaces de usuario.
+React Router: Manejo de la navegación en la aplicación.
+Context API: Gestión del estado global para el carrito de compras.
+Bootstrap: Framework de CSS para diseño responsive y estilizado.
+Node.js y NPM: Entorno de ejecución para JavaScript y gestor de paquetes.
+Estructura del Proyecto
+El proyecto se organiza de la siguiente manera:
+
+/src
+/components - Componentes React como Navbar, ItemList, etc.
+/context - Contexto de React para el estado global.
+App.js - Componente principal de la aplicación.
+index.js - Punto de entrada de la aplicación.
+package.json - Define las dependencias y scripts del proyecto.
+.env - Almacena las variables de entorno (no incluido en el repositorio por seguridad).
+Instrucciones de Instalación
+Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
+
+Clona el repositorio en tu máquina local.
+Navega al directorio del proyecto y ejecuta npm install para instalar las dependencias.
+Una vez instaladas las dependencias, ejecuta npm start para iniciar el servidor de desarrollo.
+Abre tu navegador y ve a http://localhost:3000 para ver la aplicación en funcionamiento.
+Uso del Proyecto
+Navega a través del catálogo de productos desde la página principal.
+Añade productos a tu carrito utilizando los botones de "Añadir al Carrito" en cada producto.
+Revisa los detalles de los productos haciendo clic en ellos.
+Accede a tu carrito y procede al checkout cuando estés listo para finalizar tu compra.
+Contribuciones y Feedback
+Las contribuciones son bienvenidas. Si deseas contribuir, por favor haz un fork del repositorio y crea un pull request con tus cambios. Para sugerencias y feedback, por favor abre un issue en el repositorio.

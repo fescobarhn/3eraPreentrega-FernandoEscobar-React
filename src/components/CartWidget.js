@@ -1,13 +1,16 @@
 // src/components/CartWidget.js
-import React from 'react';
+import React, { useContext } from 'react';
+import { CartContext } from './CartContext';
 
-function CartWidget() {
+const CartWidget = () => {
+    const { itemCount } = useContext(CartContext);
+
     return (
         <div>
-            <i className="fas fa-shopping-cart"></i>
-            <span className="badge badge-pill badge-warning">5</span> {/*Número hardcodeado */}
+            <span>Carrito</span>
+            <span>{itemCount}</span>
         </div>
     );
-}
+};
 
 export default CartWidget;

@@ -1,13 +1,14 @@
 // src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CartWidget from './CartWidget';
 
 function Navbar() {
   return (
     <nav>
-      <Link to="/">BrandName</Link>
+      <Link to="/">AudioShop</Link>
       <ul>
-        <li><Link to="/category/vehículos">Vehículos</Link></li>
+        <li><Link to="/category/audifonos">Audifonos</Link></li>
         {/* Agregar más categorías según lo necesario */}
       </ul>
       {/* Aquí podrías agregar el ícono o componente del carrito */}
